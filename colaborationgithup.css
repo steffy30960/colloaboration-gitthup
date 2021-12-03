@@ -1,0 +1,72 @@
+*
+{
+    margin: O;
+    padding: 0;
+}
+body
+{
+    background-color: navajowhite;
+    text-align: center;
+}
+header
+{
+    background-image: radial-gradient(white,blue);
+    display: flex;
+    justify-content: center;
+  
+} 
+.logo
+{
+    border-radius: 50%;
+}
+.header h2
+{
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+.centre
+{
+    width: 700px;
+}
+.exp ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a
+{
+    text-decoration:none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+a.hover
+{
+    background-color: navajowhite;
+    color: black;
+}
+.previous
+{
+    background-color: yellow;
+    color: black;
+    border-radius: 50%;
+}
+.next
+{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+footer
+{
+    background-image: radial-gradient(blue,white);
+    color: navajowhite;
+}
+.arrondi
+{
+    border-radius: 50px;
+    color: blue;
+    width: 100px;
+}
